@@ -75,7 +75,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: 'scss/',
-          src: ['motospanama.scss'],
+          src: ['ckapp.scss'],
           dest: '<%= yeoman.app %>/styles',
           ext: '.css'
         }]
