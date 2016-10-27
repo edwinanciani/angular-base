@@ -2,16 +2,11 @@
 
 /**
  * @ngdoc function
- * @name ckappApp.controller:MainCtrl
+ * @name ckApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the ckappApp
+ * Controller of the ckApp
  */
-angular.module('ckappApp')
+angular.module('ckApp')
   .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
   });

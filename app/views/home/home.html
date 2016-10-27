@@ -1,0 +1,51 @@
+<div class="carousel carousel-slider center" data-indicators="true">
+  <div class="carousel-fixed-item center">
+    <a class="btn waves-effect white grey-text darken-text-2"></a>
+  </div>
+  <div ng-repeat="item in panels" class="carousel-item red white-text" style="background-image:
+  url('{{item.CAROUSEL_URL}}')"
+       href="#one!">
+    <h2>{{item.TITLE_CAROUSEL}}</h2>
+    <p class="white-text">{{item.TEXT_CAROUSEL}}</p>
+  </div>
+</div>
+<div class="section white">
+  <div layout="column">
+    <div layout-align="center center" class="container">
+      <h2 flex class="header">{{TITLE_HOME}}</h2>
+    </div>
+    <div class="container row" layout-align="space-around center">
+      <div class="col s12 m6 l4 hideme">
+        <div ng-repeat="card in cards" class="card">
+          <div class="card-image">
+            <img src="{{card.CARD_URL}}">
+            <span class="card-title">{{card.TITLE}}</span>
+          </div>
+          <div class="card-content">
+            <p>{{card.CARD_TEXT}}</p>
+          </div>
+          <div class="card-action">
+            <a href="#">{{card.CARD_LINK}}</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="{{PARALLAX_URL}}"></div>
+</div>
+<div class="section materialize-red lighten-2">
+  <div class="container">
+    <h3 class="white-text">{{TITLE_COMMENTS}}</h3>
+    <div class="row">
+      <div ng-repeat="comment in comments | limitTo:3" class="col s12 l4 hideme">
+        <blockquote class="white-text">
+          <q>{{comment.COMMENT_TITLE}}</q>
+          <footer>— {{comment.COMMENT_AUTHOR}} - {{comment.COMMENT_SRC}}</footer>
+        </blockquote>
+        </div>
+      </div>
+    </div>
+</div>
