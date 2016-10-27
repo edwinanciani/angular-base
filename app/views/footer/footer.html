@@ -8,7 +8,7 @@
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Socials</h5>
         <ul class="row">
-          <li ng-repeat="social in socials"><a class="col l4 icon grey-text text-lighten-3 ion-social-{{social.SOCIAL_NETWORK}}" href="{{social.SOCIAL_URL}}"></a></li>
+          <li ng-repeat="social in socials |limitTo:3"><a class="col l4 icon grey-text text-lighten-3 ion-social-{{social.SOCIAL_NETWORK}}" href="{{social.SOCIAL_URL}}"></a></li>
         </ul>
       </div>
     </div>

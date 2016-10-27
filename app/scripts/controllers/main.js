@@ -7,6 +7,6 @@
  * # MainCtrl
  * Controller of the ckApp
  */
-angular.module('ckApp')
+angular.module('tsr-app')
   .controller('MainCtrl', function () {
   });

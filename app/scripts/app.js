@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('ckApp', [
+  .module('tsr-app', [
     'ngAnimate',
     'ngAria',
     'ngResource',

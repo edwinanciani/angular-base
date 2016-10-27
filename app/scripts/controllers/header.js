@@ -7,7 +7,7 @@
  * # HeaderCtrl
  * Controller of the ckApp
  */
-angular.module('ckApp')
+angular.module('tsr-app')
   .controller('HeaderCtrl', function () {
     angular.element(".button-collapse").sideNav()
   });

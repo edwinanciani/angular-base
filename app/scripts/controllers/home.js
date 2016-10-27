@@ -7,7 +7,7 @@
  * # HomeCtrl
  * Controller of the ckApp
  */
-angular.module('ckApp')
+angular.module('tsr-app')
   .controller('HomeCtrl', function () {
     angular.element('.carousel.carousel-slider').carousel({full_width: true});
     angular.element('.carousel-quotes').carousel({full_width: true});
