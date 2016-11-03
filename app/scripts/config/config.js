@@ -20,6 +20,14 @@ angular.module('tsr-app')
       {
         SOCIAL_NETWORK:'facebook',
         SOCIAL_URL:'https://www.facebook.com'
+      },
+      {
+        SOCIAL_NETWORK:'twitter',
+        SOCIAL_URL:'https://www.twitter.com'
+      },
+      {
+        SOCIAL_NETWORK:'linkedin',
+        SOCIAL_URL:'https://www.linkedin.com'
       }
     ],
     // Quick action button

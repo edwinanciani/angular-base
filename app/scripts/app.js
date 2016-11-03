@@ -16,7 +16,8 @@ angular
     'ngSanitize',
     'ui.router',
     'ngMaterial',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'pascalprecht.translate'
   ])
   .config(function ($stateProvider,$urlRouterProvider) {
     $urlRouterProvider.otherwise("/");

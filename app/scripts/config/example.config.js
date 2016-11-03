@@ -22,13 +22,7 @@ angular.module('tsr-app')
         SOCIAL_URL:''
       }
     ],
-    // Quick action button
-    QUICK_ACTION:'',
-
     // Home page
     HERO_URL:'',
-    HERO_TITLE:'',
-    TITLE_HOME:'',
-    TITLE_COLORED_SECTION:'',
     PARALLAX_URL:''
   });

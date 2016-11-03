@@ -12,7 +12,10 @@
     "materialize": "^0.97.7",
     "angular-ui-router": "^0.3.1",
     "angular-bootstrap": "^2.2.0",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "angular-translate": "^2.13.0",
+    "angular-translate-loader-static-files": "^2.13.0",
+    "Ionicons": "ionicons#^2.0.1"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"

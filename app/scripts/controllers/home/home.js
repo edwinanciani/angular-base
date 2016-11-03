@@ -12,8 +12,6 @@ function Home(Config) {
   this.QUICK_ACTION = Config.QUICK_ACTION;
   this.PARALLAX_URL = Config.PARALLAX_URL;
   this.HERO_URL = Config.HERO_URL;
-  this.HERO_TITLE = Config.HERO_TITLE;
-  this.TITLE_COLORED_SECTION = Config.TITLE_COLORED_SECTION;
   this.slides = [
     {
       CAROUSEL_URL:'http://placehold.it/1920x800',

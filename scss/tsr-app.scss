@@ -1,5 +1,5 @@
-@import "utils/_color";
 @import "utils/_variables";
+@import '../bower_components/materialize/sass/materialize';
 @import "utils/_mixins";
 @import "utils/_actions";
 
@@ -10,4 +10,5 @@
 @import "components/_cards";
 @import "components/_carousel";
 @import "components/_hero";
+@import "components/_comments";
 
