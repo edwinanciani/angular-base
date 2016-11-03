@@ -5,3 +5,4 @@
 /bower_components
 /.idea
 /app/styles/
+/app/scripts/config/config.js
