@@ -1,0 +1,22 @@
+<footer class="page-footer" ng-controller="FooterCtrl as footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">{{footer.BRAND_NAME}}</h5>
+        <p class="grey-text text-lighten-4">{{footer.BRAND_SLOGAN}}</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">{{'SOCIALS' | translate}}</h5>
+        <ul class="row">
+          <li ng-repeat="social in footer.socials |limitTo:3"><a class="col l4 icon grey-text text-lighten-3 ion-social-{{social.SOCIAL_NETWORK}}" href="{{social.SOCIAL_URL}}"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2016 {{footer.BRAND_NAME}} Copyright
+      <a class="grey-text text-lighten-4 right" target="_blank" href="http://tsserapp.com">Powered by Tsserapp</a>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,61 @@
+<div class="row hero show-on-small hide-on-med-and-up">
+  <img class="responsive-img" ng-src="{{home.HERO_URL}}" alt="Hero Image">
+  <div class="hero-caption">
+    <h1 class="white-text">{{'HERO_TITLE' | translate}}</h1>
+  </div>
+  <div class="carousel-fixed-item center">
+    <a class="btn waves-effect white grey-text darken-text-2">{{'QUICK_ACTION' | translate}}</a>
+  </div>
+</div>
+<div uib-carousel class="hide-on-small-and-down center fading" active="0" interval="5000">
+  <div class="carousel-fixed-item center">
+    <a class="btn waves-effect white grey-text darken-text-2">{{'QUICK_ACTION' | translate}}</a>
+  </div>
+  <div uib-slide ng-repeat="slide in home.slides" index="$index">
+    <img class="responsive-img" ng-src="{{slide.CAROUSEL_URL}}">
+    <div class="carousel-caption">
+      <h2 class="carousel-title">{{slide.CAROUSEL_TITLE}}</h2>
+      <p>{{slide.CAROUSEL_TEXT}}</p>
+    </div>
+  </div>
+</div>
+<div class="section white">
+  <div layout="column">
+    <div layout-align="center center" class="container">
+      <h2 flex class="header">{{'TITLE_HOME' | translate}}</h2>
+    </div>
+    <div class="row container" layout-align="space-around center">
+      <div  ng-repeat="card in home.cards" class="col s12 m6 l4 hideme">
+        <div class="card">
+          <div class="card-image">
+            <img src="{{card.CARD_URL}}">
+            <span class="card-title">{{card.CARD_TITLE}}</span>
+          </div>
+          <div class="card-content">
+            <p>{{card.CARD_TEXT}}</p>
+          </div>
+          <div class="card-action">
+            <a href="#">{{card.CARD_LINK}}</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+<div class="parallax-container">
+  <div class="parallax">
+    <img class="responsive-img" src="{{home.PARALLAX_URL}}"></div>
+</div>
+<div class="section comments">
+  <div class="container">
+    <h3 class="white-text">{{'COLORED_SECTION' | translate}}</h3>
+    <div class="row">
+      <div ng-repeat="comment in home.comments | limitTo:3" class="col s12 l4 hideme white-text">
+        <blockquote class="white-text">
+          <q>{{comment.COMMENT_TEXT}}</q>
+          <footer class="white-text">{{comment.COMMENT_AUTHOR}} - {{comment.COMMENT_SRC}}</footer>
+        </blockquote>
+        </div>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+.hero {
+  position: relative;
+  height: 400px;
+  .hero-caption {
+    position: absolute;
+    top:10%;
+    right: 15px;
+    left: 15px;
+    h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  img {
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    height: 100%;
+    width: 100%;
+  }
+}
