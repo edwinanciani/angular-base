@@ -1,8 +1,13 @@
+@import "utils/_color";
 @import "utils/_variables";
 @import "utils/_mixins";
+@import "utils/_actions";
 
 @import "layout/_header";
 @import "layout/_main";
 @import "layout/_footer";
 
 @import "components/_cards";
+@import "components/_carousel";
+@import "components/_hero";
+

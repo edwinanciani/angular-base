@@ -75,7 +75,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: 'scss/',
-          src: ['ckapp.scss'],
+          src: ['tsr-app.scss'],
           dest: '<%= yeoman.app %>/styles',
           ext: '.css'
         }]
@@ -353,7 +353,7 @@ module.exports = function (grunt) {
     ngtemplates: {
       dist: {
         options: {
-          module: 'ckappApp',
+          module: 'tsr-app',
           htmlmin: '<%= htmlmin.dist.options %>',
           usemin: 'scripts/scripts.js'
         },

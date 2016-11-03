@@ -15,7 +15,8 @@ angular
     'ngResource',
     'ngSanitize',
     'ui.router',
-    'ngMaterial'
+    'ngMaterial',
+    'ui.bootstrap'
   ])
   .config(function ($stateProvider,$urlRouterProvider) {
     $urlRouterProvider.otherwise("/");
@@ -31,6 +32,7 @@ angular
       .state('app.main', {
         url: "/",
         templateUrl:'views/home/home.html',
-        controller: 'HomeCtrl'
+        controller: 'HomeCtrl',
+        controllerAs:'home'
       })
   });

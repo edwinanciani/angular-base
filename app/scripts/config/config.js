@@ -11,21 +11,24 @@ angular.module('tsr-app')
   .constant('Config',{
     API:'',
     // Name your brand
-    BRAND_NAME: '',
-    BRAND_SLOGAN:'',
+    BRAND_NAME: 'Clean Key',
+    BRAND_SLOGAN:'Something like that',
     BRANDLOGO_URL:'',
 
     // You can put any social network. lowercase* SOCIAL_NETWORK:'facebook'
     SOCIAL_NETWORKS:[
       {
-        SOCIAL_NETWORK:'',
-        SOCIAL_URL:''
+        SOCIAL_NETWORK:'facebook',
+        SOCIAL_URL:'https://www.facebook.com'
       }
     ],
     // Quick action button
-    QUICK_ACTION:'',
+    QUICK_ACTION:'Ask for your KEY',
 
     // Home page
-    TITLE_HOME:'',
-    PARALLAX_URL:''
+    HERO_URL:'http://lorempixel.com/800/800/city/',
+    HERO_TITLE:'We can clean you house',
+    TITLE_HOME:'How we work',
+    TITLE_COLORED_SECTION:'Comments',
+    PARALLAX_URL:'http://lorempixel.com/1420/1024/sports/'
   });
