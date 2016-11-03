@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc overview
- * @name ckappApp
+ * @name tsr-app
  * @description
  * # tsr-app
  *
